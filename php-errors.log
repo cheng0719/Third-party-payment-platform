@@ -1,0 +1,14 @@
+[04-Jun-2022 14:24:01 UTC] Division By Zero Error: DivisionByZeroError: Division by zero in C:\Apache24\htdocs\test.php:132
+Stack trace:
+#0 {main}
+
+[04-Jun-2022 14:25:34 UTC] Type Error: TypeError: foo(): Argument #1 ($bar) must be of type int, string given, called in C:\Apache24\htdocs\test.php on line 127 and defined in C:\Apache24\htdocs\test.php:101
+Stack trace:
+#0 C:\Apache24\htdocs\test.php(127): foo('type error')
+#1 {main}
+
+[04-Jun-2022 14:56:39 UTC] Type Error: TypeError: foo(): Argument #1 ($bar) must be of type int, string given, called in C:\Apache24\htdocs\test.php on line 127 and defined in C:\Apache24\htdocs\test.php:101
+Stack trace:
+#0 C:\Apache24\htdocs\test.php(127): foo('type error')
+#1 {main}
+

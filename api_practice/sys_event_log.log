@@ -1,0 +1,125 @@
+[2022-06-27 23:06:41] 26 searched successfully.
+
+[2022-06-28 10:37:41] 26 searched successfully.
+
+[2022-06-28 23:39:01] Error: User 00001 login failed.
+[2022-06-28 23:40:24] Info: User 00001 login successfully.
+[2022-06-28 23:40:24] 1 searched successfully.
+
+[2022-06-28 23:41:10] Error: User 00002 login failed.
+[2022-06-28 23:41:19] Info: User 00002 login successfully.
+[2022-06-28 23:41:19] [00002] search [1] Error: User permission invalid.
+[2022-06-28 23:41:28] Info: User 00002 login successfully.
+[2022-06-28 23:41:28] 2 searched successfully.
+
+[2022-06-28 23:41:35] Info: User 00002 login successfully.
+[2022-06-28 23:41:35] [00002] search [3] Error: User permission invalid.
+[2022-06-29 11:18:17] Info: User 00001 login successfully.
+[2022-06-29 11:18:17] 1 searched successfully.
+
+[2022-06-29 12:22:12] Info: User 00001 login successfully.
+[2022-06-29 12:22:12] 1 searched successfully.
+
+[2022-06-29 12:22:17] Info: User 00001 login successfully.
+[2022-06-29 12:22:17] 1 searched successfully.
+
+[2022-06-29 12:29:36] Info: User 00001 login successfully.
+[2022-06-29 12:29:36] [00001] search [0] Error: Data not exist.
+[2022-06-29 12:30:17] Info: User 00001 login successfully.
+[2022-06-29 12:30:17] [00001] search [0] Error: Data not exist.
+[2022-06-29 22:29:04] Info: User[00001] login successfully.
+[2022-06-29 22:29:04] User[1] search traderecordid[1] Info: Data searched successfully.
+
+[2022-06-29 22:30:15] Info: User[00001] login successfully.
+[2022-06-29 22:30:15] User[00001] search traderecordid[1] Info: Data searched successfully.
+
+[2022-06-29 22:30:37] Info: User[00001] login successfully.
+[2022-06-29 22:30:37] User[00001] search traderecordid[13] Error: User permission invalid.
+[2022-06-29 23:37:44] Info: User[00001] login successfully.
+[2022-06-29 23:37:57] Info: User[00001] login successfully.
+[2022-06-29 23:37:57] User[00001] search traderecordid[52] Error: Data not exist.
+[2022-06-29 23:38:07] Info: User[00001] login successfully.
+[2022-06-29 23:38:07] User[00001] search traderecordid[52] Error: Data not exist.
+[2022-06-29 23:38:17] Info: User[00001] login successfully.
+[2022-06-29 23:38:17] User[00001] search traderecordid[55] Info: Data searched successfully.
+
+[2022-06-29 23:41:07] Info: User[00002] login successfully.
+[2022-06-29 23:41:07] User[] insert transaction data( merchantid[], merchanttradenum[], merchanttradedata[], totalamount[], itemname[] ) Info: Transaction data saved successfully.
+[2022-06-29 23:41:32] Info: User[00001] login successfully.
+[2022-06-29 23:41:32] User[00001] search traderecordid[56] Error: User permission invalid.
+[2022-06-29 23:48:38] Info: User[00002] login successfully.
+[2022-06-29 23:55:25] Info: User[00002] login successfully.
+[2022-06-29 23:55:25] User[00002] insert transaction data( merchantid[00002], merchanttradenum[cs00053], merchanttradedata[20220423110302], totalamount[300], itemname[cost53] ) return traderecordid[56] Info: Transaction data saved successfully.
+[2022-06-29 23:56:09] Info: User[00002] login successfully.
+[2022-06-29 23:56:09] User[00002] search traderecordid[56] Info: Data searched successfully.
+
+[2022-06-29 23:56:26] Info: User[00002] login successfully.
+[2022-06-29 23:56:26] User[00002] search traderecordid[56] Info: Data searched successfully.
+
+[2022-06-29 23:56:41] Error: User[00002] login failed.
+[2022-06-29 23:57:00] Info: User[00002] login successfully.
+[2022-06-29 23:57:00] User[00002] search traderecordid[] Error: User search request is empty.
+[2022-06-29 23:57:07] Info: User[00002] login successfully.
+[2022-06-29 23:57:07] User[00002] search traderecordid[0] Error: Data not exist.
+[2022-06-29 23:58:03] Info: User[00002] login successfully.
+[2022-06-29 23:58:03] User[00002] search traderecordid[] Error: Parameter traderecordid can not be empty.
+[2022-06-29 23:59:28] Error: User[gs001] login failed.
+[2022-06-29 23:59:40] Error: User[gs] login failed.
+[2022-06-30 00:00:11] Error: User[gs001] login failed.
+[2022-06-30 00:02:24] Error: User[gs001] login failed.
+[2022-06-30 00:02:28] Info: User[gs001] login successfully.
+[2022-06-30 00:02:28] User[gs001] search traderecordid[1] Error: User permission invalid.
+[2022-06-30 00:02:35] Info: User[gs001] login successfully.
+[2022-06-30 00:02:35] User[] insert transaction data( merchantid[gs001], merchanttradenum[cs00053], merchanttradedata[], totalamount[300], itemname[cost53] ) Error: Duplicated MerchantTradeNum.
+[2022-06-30 00:04:09] Info: User[gs001] login successfully.
+[2022-06-30 00:04:09] User[gs001] insert transaction data( merchantid[gs001], merchanttradenum[cs00053], merchanttradedate[20220423110302], totalamount[300], itemname[cost53] ) Error: Duplicated MerchantTradeNum.
+[2022-06-30 00:04:48] Info: User[gs001] login successfully.
+[2022-06-30 00:04:48] User[gs001] insert transaction data( merchantid[gs001], merchanttradenum[cs00054], merchanttradedata[20220423110021], totalamount[400], itemname[cost54] ) return traderecordid[57] Info: Transaction data saved successfully.
+[2022-06-30 00:04:55] Info: User[gs001] login successfully.
+[2022-06-30 00:04:55] User[gs001] search traderecordid[57] Info: Data searched successfully.
+
+[2022-06-30 00:07:03] Info: User[gs001] login successfully.
+[2022-06-30 00:07:03] User[gs001] search traderecordid[57] Info: Data searched successfully.
+[2022-06-30 00:07:08] Info: User[gs001] login successfully.
+[2022-06-30 00:07:08] User[gs001] search traderecordid[57] Info: Data searched successfully.
+[2022-06-30 11:00:16] Error: User[aa001] login failed.
+[2022-06-30 11:00:20] Info: User[aa001] login successfully.
+[2022-06-30 11:00:20] User[aa001] search traderecordid[57] Error: User permission invalid.
+[2022-06-30 11:01:00] Info: User[aa001] login successfully.
+[2022-06-30 11:01:00] User[aa001] search traderecordid[] Error: Parameter traderecordid can not be empty.
+[2022-06-30 11:01:50] Info: User[aa001] login successfully.
+[2022-06-30 11:01:50] User[aa001] insert transaction data request. Error: Parameter [MerchantTradeDate] can not be empty.
+[2022-06-30 11:02:18] Info: User[aa001] login successfully.
+[2022-06-30 11:02:19] User[aa001] insert transaction data( merchantid[aa001], merchanttradenum[aa00054], merchanttradedata[20220423110308], totalamount[100], itemname[cost54] ) return traderecordid[58] Info: Transaction data saved successfully.
+[2022-06-30 11:02:32] Info: User[aa001] login successfully.
+[2022-06-30 11:02:32] User[aa001] search traderecordid[58] Info: Data searched successfully.
+[2022-06-30 15:16:25] Info: User[aa001] login successfully.
+[2022-06-30 15:16:25] User[aa001] insert transaction data( merchantid[aa001], merchanttradenum[aa00054], merchanttradedata[20220423110308], totalamount[100], itemname[cost54] ) return traderecordid[58] Info: Transaction data saved successfully.
+[2022-06-30 15:19:25] Info: User[aa001] login successfully.
+[2022-06-30 15:19:25] User[aa001] insert transaction data( merchantid[aa001], merchanttradenum[cs00001], merchanttradedate[20220511201028], totalamount[100], itemname[cost01] ) Error: Duplicated MerchantTradeNum.
+[2022-06-30 15:19:58] Info: User[aa001] login successfully.
+[2022-06-30 15:19:58] User[aa001] insert transaction data( merchantid[aa001], merchanttradenum[aa00001], merchanttradedata[20220511201028], totalamount[100], itemname[cost01] ) return traderecordid[59] Info: Transaction data saved successfully.
+[2022-06-30 15:20:53] Info: User[aa001] login successfully.
+[2022-06-30 15:20:53] User[aa001] search traderecordid[59] Info: Data searched successfully.
+[2022-06-30 15:23:13] Error: User[aa00] login failed.
+[2022-06-30 15:27:42] Info: User[aa001] login successfully.
+[2022-06-30 15:27:42] User[aa001] search traderecordid[59] Info: Data searched successfully.
+[2022-07-02 23:17:47] Error: User[00001] login failed.
+[2022-07-18 22:49:23] Info: User[00001] login successfully.
+[2022-07-18 22:49:23] User[00001] search traderecordid[2] Error: User permission invalid.
+[2022-07-18 22:52:29] Info: User[00001] login successfully.
+[2022-07-18 22:52:29] User[00001] search traderecordid[1] Info: Data searched successfully.
+[2022-07-18 22:55:01] Database event log failed. User[00001] IP_address[127.0.0.1] Event_type[Info] Event_description[User login failed.] TradeRecordID[1] MerchantID[] MerchantTradeNum[] MerchantTradeDate[] TotalAmount[] ItemName[] TradeDesc[] Remark[] ExpireDate[]
+[2022-07-19 15:13:00] Info: User[00002] login successfully.
+[2022-07-19 15:13:00] User[00002] search traderecordid[2] Info: Data searched successfully.
+[2022-07-19 15:46:13] Database event log failed. User[00002] IP_address[127.0.0.1] Reuqest_type[Search] Event_type[Info] Event_description[User login successfully.] TradeRecordID[] MerchantID[] MerchantTradeNum[] MerchantTradeDate[] TotalAmount[] ItemName[] TradeDesc[] Remark[] ExpireDate[]
+[2022-07-19 15:46:13] User[00002] search traderecordid[2] Info: Data searched successfully.
+[2022-07-19 15:51:32] Database event log failed. User[00002] IP_address[127.0.0.1] Reuqest_type[Search] Event_type[Info] Event_description[User login successfully.] TradeRecordID[] MerchantID[] MerchantTradeNum[] MerchantTradeDate[] TotalAmount[] ItemName[] TradeDesc[] Remark[] ExpireDate[]
+[2022-07-19 15:51:32] User[00002] search traderecordid[2] Info: Data searched successfully.
+[2022-07-19 15:52:53] Database event log failed. User[00002] IP_address[127.0.0.1] Reuqest_type[Search] Event_type[Info] Event_description[User login failed.] TradeRecordID[] MerchantID[] MerchantTradeNum[] MerchantTradeDate[] TotalAmount[] ItemName[] TradeDesc[] Remark[] ExpireDate[]
+[2022-07-19 15:55:42] Database event log failed. User[00002] IP_address[127.0.0.1] Reuqest_type[Search] Event_type[Info] Event_description[User login successfully.] TradeRecordID[] MerchantID[] MerchantTradeNum[] MerchantTradeDate[] TotalAmount[] ItemName[] TradeDesc[] Remark[] ExpireDate[]
+[2022-07-19 15:55:42] User[00002] search traderecordid[2] Info: Data searched successfully.
+[2022-07-19 15:58:26] User[00002] search traderecordid[2] Info: Data searched successfully.
+[2022-07-19 16:21:17] User[00002] search traderecordid[2] Info: Data searched successfully.
+[2022-07-20 11:17:05] Database event log failed. User[00001] IP_address[127.0.0.1] Reuqest_type[Create] Event_type[Error] Event_description[Parameter [MerchantTradeDate] can not be empty.] TradeRecordID[] MerchantID[00001] MerchantTradeNum[cs00057] MerchantTradeDate[] TotalAmount[] ItemName[] TradeDesc[] Remark[] ExpireDate[]
+[2022-07-20 11:52:29] Database event log failed. User[] IP_address[127.0.0.1] Reuqest_type[Delete] Event_type[Error] Event_description[User permission is invalid.] TradeRecordID[61] MerchantID[] MerchantTradeNum[] MerchantTradeDate[] TotalAmount[] ItemName[] TradeDesc[] Remark[] ExpireDate[]

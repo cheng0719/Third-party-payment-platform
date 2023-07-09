@@ -1,0 +1,41 @@
+[10-Aug-2022 22:36:11 Asia/Taipei] PDOException: SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "account_merchantid_key"
+DETAIL:  Key (merchantid)=(00001) already exists. in C:\Apache24\htdocs\serverside.com\api_controll.php:225
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(225): PDOStatement->execute()
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(600): DataFactory::Validation(Array, '00001', NULL, '127.0.0.1')
+#2 {main}
+
+[12-Aug-2022 12:00:25 Asia/Taipei] Error: Error: Object of class TransactionData could not be converted to string in C:\Apache24\htdocs\serverside.com\api_controll.php:88
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(88): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(666): database_event_log('00001', '127.0.0.1', 'Create', 'Info', 'Transaction dat...', Object(TransactionData), NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+
+[12-Aug-2022 15:08:46 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-08-12 15:08:46+08, null, null, Delete, Error, Data not exist., null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:88
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(88): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(467): database_event_log(NULL, NULL, 'Delete', 'Error', 'Data not exist.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(765): DataFactory::DeleteData(Array, NULL)
+#3 {main}
+
+[12-Aug-2022 15:08:50 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-08-12 15:08:51+08, null, null, Delete, Error, Data not exist., null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:88
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(88): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(467): database_event_log(NULL, NULL, 'Delete', 'Error', 'Data not exist.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(765): DataFactory::DeleteData(Array, NULL)
+#3 {main}
+
+[18-Oct-2022 15:54:38 Asia/Taipei] PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  INSERT has more expressions than target columns
+LINE 3: ...                                          $4, $5, $6, $7, $8...
+                                                             ^ in C:\Apache24\htdocs\serverside.com\api_controll.php:381
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(381): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(693): DataFactory::InsertData(Array, Array)
+#2 {main}
+
+[18-Oct-2022 15:58:30 Asia/Taipei] Error: Error: Call to a member function get_tradeDesc() on null in C:\Apache24\htdocs\serverside.com\api_controll.php:856
+Stack trace:
+#0 {main}
+

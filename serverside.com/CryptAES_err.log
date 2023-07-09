@@ -1,0 +1,475 @@
+[26-Sep-2022 12:09:05 UTC] PHP Warning:  require_once(C:\Apache24\htdocs\serverside.com/vendor/autoload.php): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 5
+[26-Sep-2022 12:09:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Apache24\htdocs\serverside.com/vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 5
+[26-Sep-2022 12:09:08 UTC] PHP Warning:  require_once(C:\Apache24\htdocs\serverside.com/vendor/autoload.php): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 5
+[26-Sep-2022 12:09:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Apache24\htdocs\serverside.com/vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 5
+[26-Sep-2022 12:09:21 UTC] PHP Warning:  require_once(C:\Apache24\htdocs\serverside.com/vendor/autoload.php): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 5
+[26-Sep-2022 12:09:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Apache24\htdocs\serverside.com/vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 5
+[26-Sep-2022 12:18:38 UTC] this is 123
+
+[26-Sep-2022 12:20:03 UTC] [2022-09-26 12:20:03] this is 123
+
+[26-Sep-2022 12:36:55 UTC] PHP Warning:  require_once(phpseclib3/Crypt/AES.php): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 6
+[26-Sep-2022 12:36:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpseclib3/Crypt/AES.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 6
+[26-Sep-2022 12:37:28 UTC] PHP Warning:  require_once(phpseclib/Crypt/AES.php): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 6
+[26-Sep-2022 12:37:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpseclib/Crypt/AES.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 6
+[26-Sep-2022 12:52:20 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib\Crypt\Rijndael" not found in C:\Apache24\htdocs\serverside.com\phpseclib\phpseclib\Crypt\AES.php:59
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(6): include()
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\phpseclib\phpseclib\Crypt\AES.php on line 59
+[26-Sep-2022 12:52:21 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib\Crypt\Rijndael" not found in C:\Apache24\htdocs\serverside.com\phpseclib\phpseclib\Crypt\AES.php:59
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(6): include()
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\phpseclib\phpseclib\Crypt\AES.php on line 59
+[26-Sep-2022 12:54:42 UTC] PHP Warning:  include(phpseclib/phpseclib/Crypt/Rijndael): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 6
+[26-Sep-2022 12:54:42 UTC] PHP Warning:  include(): Failed opening 'phpseclib/phpseclib/Crypt/Rijndael' for inclusion (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 6
+[26-Sep-2022 12:54:42 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib\Crypt\Rijndael" not found in C:\Apache24\htdocs\serverside.com\phpseclib\phpseclib\Crypt\AES.php:59
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(7): include()
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\phpseclib\phpseclib\Crypt\AES.php on line 59
+[26-Sep-2022 13:06:03 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib3\Crypt\Rijndael" not found in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\AES.php:55
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(7): include()
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\AES.php on line 55
+[26-Sep-2022 13:08:10 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib3\Crypt\Common\BlockCipher" not found in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Rijndael.php:67
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(6): include()
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Rijndael.php on line 67
+[26-Sep-2022 13:10:31 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib3\Crypt\Common\SymmetricKey" not found in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Common\BlockCipher.php:22
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(6): include()
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Common\BlockCipher.php on line 22
+[26-Sep-2022 13:11:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "MODE_CBC" in C:\Apache24\htdocs\serverside.com\CryptAES.php:83
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 83
+[26-Sep-2022 13:12:08 UTC] PHP Warning:  Undefined variable $mode in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 27
+[26-Sep-2022 13:12:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CryptAES::__construct(), 1 passed in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 31 and exactly 2 expected in C:\Apache24\htdocs\serverside.com\CryptAES.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(31): CryptAES->__construct(NULL)
+#1 C:\Apache24\htdocs\serverside.com\CryptAES.php(83): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#2 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 25
+[27-Sep-2022 11:35:13 UTC] PHP Fatal error:  Uncaught Error: Class "Crypt_AES" not found in C:\Apache24\htdocs\serverside.com\CryptAES.php:31
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(83): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 31
+[27-Sep-2022 11:37:34 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib\phpseclib\Crypt\AES" not found in C:\Apache24\htdocs\serverside.com\CryptAES.php:31
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(83): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 31
+[27-Sep-2022 11:38:26 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib\Crypt\AES" not found in C:\Apache24\htdocs\serverside.com\CryptAES.php:31
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(83): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 31
+[27-Sep-2022 11:40:25 UTC] PHP Fatal error:  Uncaught Error: Class "AES" not found in C:\Apache24\htdocs\serverside.com\CryptAES.php:31
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(83): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 31
+[27-Sep-2022 11:56:34 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib\Crypt\AES" not found in C:\Apache24\htdocs\serverside.com\CryptAES.php:31
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(83): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 31
+[27-Sep-2022 11:58:39 UTC] PHP Warning:  include(phpseclib3/Crypt/Common/SymmetricKey.php): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 6
+[27-Sep-2022 11:58:39 UTC] PHP Warning:  include(): Failed opening 'phpseclib3/Crypt/Common/SymmetricKey.php' for inclusion (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 6
+[27-Sep-2022 11:58:39 UTC] PHP Warning:  include(phpseclib3/Crypt/Common/BlockCipher.php): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 7
+[27-Sep-2022 11:58:39 UTC] PHP Warning:  include(): Failed opening 'phpseclib3/Crypt/Common/BlockCipher.php' for inclusion (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 7
+[27-Sep-2022 11:58:39 UTC] PHP Warning:  include(phpseclib3/Crypt/Rijndael.php): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 8
+[27-Sep-2022 11:58:39 UTC] PHP Warning:  include(): Failed opening 'phpseclib3/Crypt/Rijndael.php' for inclusion (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 8
+[27-Sep-2022 11:58:39 UTC] PHP Warning:  include(phpseclib3/Crypt/AES.php): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 9
+[27-Sep-2022 11:58:39 UTC] PHP Warning:  include(): Failed opening 'phpseclib3/Crypt/AES.php' for inclusion (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 9
+[27-Sep-2022 11:58:39 UTC] PHP Warning:  include(phpseclib3/Crypt/Hash.php): Failed to open stream: No such file or directory in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 10
+[27-Sep-2022 11:58:39 UTC] PHP Warning:  include(): Failed opening 'phpseclib3/Crypt/Hash.php' for inclusion (include_path='.;C:\php\pear') in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 10
+[27-Sep-2022 11:58:39 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib3\Crypt\AES" not found in C:\Apache24\htdocs\serverside.com\CryptAES.php:31
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(83): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 31
+[27-Sep-2022 12:00:09 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib3\Exception\BadModeException" not found in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Common\SymmetricKey.php:625
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Rijndael.php(166): phpseclib3\Crypt\Common\SymmetricKey->__construct('mode_cbc')
+#1 C:\Apache24\htdocs\serverside.com\CryptAES.php(31): phpseclib3\Crypt\Rijndael->__construct('MODE_CBC')
+#2 C:\Apache24\htdocs\serverside.com\CryptAES.php(83): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#3 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Common\SymmetricKey.php on line 625
+[28-Sep-2022 08:51:59 UTC] PHP Fatal error:  Uncaught BadMethodCallException: This mode does not require an IV. in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Common\SymmetricKey.php:711
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(33): phpseclib3\Crypt\Common\SymmetricKey->setIV('123456789012345...')
+#1 C:\Apache24\htdocs\serverside.com\test.php(40): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#2 C:\Apache24\htdocs\serverside.com\test.php(29): Response->encrypt('55')
+#3 C:\Apache24\htdocs\serverside.com\test.php(57): Response->set_urlParam('55')
+#4 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Common\SymmetricKey.php on line 711
+[30-Sep-2022 05:41:27 UTC] PHP Fatal error:  Uncaught Error: Class "phpseclib3\Common\Functions\Strings" not found in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Common\SymmetricKey.php:2080
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Common\SymmetricKey.php(1268): phpseclib3\Crypt\Common\SymmetricKey->openssl_ofb_process('55&ahdkvhey', '123456789012345...', Array)
+#1 C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Rijndael.php(987): phpseclib3\Crypt\Common\SymmetricKey->encrypt('55&ahdkvhey')
+#2 C:\Apache24\htdocs\serverside.com\CryptAES.php(67): phpseclib3\Crypt\Rijndael->encrypt('55&ahdkvhey')
+#3 C:\Apache24\htdocs\serverside.com\test.php(41): CryptAES->encrypt('55&ahdkvhey')
+#4 C:\Apache24\htdocs\serverside.com\test.php(29): Response->encrypt('55')
+#5 C:\Apache24\htdocs\serverside.com\test.php(57): Response->set_urlParam('55')
+#6 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\phpseclib\Crypt\Common\SymmetricKey.php on line 2080
+[30-Sep-2022 06:34:52 UTC] PHP Fatal error:  Uncaught Error: Class "Crypt_Hash" not found in C:\Apache24\htdocs\serverside.com\CryptAES.php:55
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\CryptAES.php(33): CryptAES->pbkdf2('abcdefghijklmno...')
+#1 C:\Apache24\htdocs\serverside.com\CryptAES.php(87): CryptAES->__construct('abcdefghijklmno...', '123456789012345...', 'abcdefghijklmno...')
+#2 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 55
+[30-Sep-2022 06:37:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CryptAES::__construct(), 2 passed in C:\Apache24\htdocs\serverside.com\test.php on line 41 and exactly 3 expected in C:\Apache24\htdocs\serverside.com\CryptAES.php:23
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\test.php(41): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#1 C:\Apache24\htdocs\serverside.com\test.php(29): Response->encrypt('55')
+#2 C:\Apache24\htdocs\serverside.com\test.php(59): Response->set_urlParam('55')
+#3 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 23
+[30-Sep-2022 06:37:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CryptAES::__construct(), 2 passed in C:\Apache24\htdocs\serverside.com\test.php on line 41 and exactly 3 expected in C:\Apache24\htdocs\serverside.com\CryptAES.php:23
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\test.php(41): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#1 C:\Apache24\htdocs\serverside.com\test.php(29): Response->encrypt('55')
+#2 C:\Apache24\htdocs\serverside.com\test.php(59): Response->set_urlParam('55')
+#3 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 23
+[30-Sep-2022 06:38:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CryptAES::__construct(), 2 passed in C:\Apache24\htdocs\serverside.com\test.php on line 42 and exactly 3 expected in C:\Apache24\htdocs\serverside.com\CryptAES.php:23
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\test.php(42): CryptAES->__construct('abcdefghijklmno...', '123456789012345...')
+#1 C:\Apache24\htdocs\serverside.com\test.php(29): Response->encrypt('55')
+#2 C:\Apache24\htdocs\serverside.com\test.php(60): Response->set_urlParam('55')
+#3 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\CryptAES.php on line 23
+[19-Oct-2022 00:03:56 Asia/Taipei] PDO error: PDOException: SQLSTATE[08006] [7] FATAL:  password authentication failed for user "postgres" in C:\Apache24\htdocs\serverside.com\api_controll.php:195
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(195): PDO->__construct('pgsql:host=loca...', 'postgres', 'abcdefghijklmno...', Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(206): DataFactory::DBConnection(Array)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(667): DataFactory::Validation(Array, '00001', 'password_1', '127.0.0.1')
+#3 {main}
+
+[19-Oct-2022 00:03:56 Asia/Taipei] PDOException: SQLSTATE[08006] [7] FATAL:  password authentication failed for user "postgres" in C:\Apache24\htdocs\serverside.com\api_controll.php:195
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(195): PDO->__construct('pgsql:host=loca...', 'postgres', 'abcdefghijklmno...', Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(206): DataFactory::DBConnection(Array)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(667): DataFactory::Validation(Array, '00001', 'password_1', '127.0.0.1')
+#3 {main}
+
+Next Exception: Fail database connecting. in C:\Apache24\htdocs\serverside.com\api_controll.php:199
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(206): DataFactory::DBConnection(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(667): DataFactory::Validation(Array, '00001', 'password_1', '127.0.0.1')
+#2 {main}
+
+[19-Oct-2022 08:56:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 112
+[19-Oct-2022 08:56:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 113
+[19-Oct-2022 08:56:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 114
+[19-Oct-2022 08:57:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 110
+[19-Oct-2022 08:57:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 111
+[19-Oct-2022 08:57:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 112
+[19-Oct-2022 23:21:45 Asia/Taipei] PDO error: PDOException: SQLSTATE[08006] [7] could not translate host name "port=" to address: Unknown host in C:\Apache24\htdocs\serverside.com\api_controll.php:198
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(198): PDO->__construct('pgsql:host=;por...', NULL, 'abcdefghijklmno...', Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(632): DataFactory::DBConnection(Array)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(759): Response->set_urlParam(5)
+#3 {main}
+
+[19-Oct-2022 23:21:56 Asia/Taipei] PDO error: PDOException: SQLSTATE[08006] [7] could not translate host name "port=" to address: Unknown host in C:\Apache24\htdocs\serverside.com\api_controll.php:198
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(198): PDO->__construct('pgsql:host=;por...', NULL, 'abcdefghijklmno...', Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(632): DataFactory::DBConnection(Array)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(759): Response->set_urlParam(5)
+#3 {main}
+
+[19-Oct-2022 23:35:43 Asia/Taipei] PDO error: PDOException: SQLSTATE[08006] [7] could not translate host name "port=" to address: Unknown host in C:\Apache24\htdocs\serverside.com\api_controll.php:198
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(198): PDO->__construct('pgsql:host=;por...', NULL, 'abcdefghijklmno...', Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(632): DataFactory::DBConnection(Array)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(759): Response->set_urlParam(5)
+#3 {main}
+
+[19-Oct-2022 23:35:45 Asia/Taipei] PDO error: PDOException: SQLSTATE[08006] [7] could not translate host name "port=" to address: Unknown host in C:\Apache24\htdocs\serverside.com\api_controll.php:198
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(198): PDO->__construct('pgsql:host=;por...', NULL, 'abcdefghijklmno...', Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(632): DataFactory::DBConnection(Array)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(759): Response->set_urlParam(5)
+#3 {main}
+
+[20-Oct-2022 01:15:28 Asia/Taipei] Error: Error: Call to a member function execute() on null in C:\Apache24\htdocs\serverside.com\api_controll.php:637
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(760): Response->set_urlParam(5, Array)
+#1 {main}
+
+[20-Oct-2022 01:15:29 Asia/Taipei] Error: Error: Call to a member function execute() on null in C:\Apache24\htdocs\serverside.com\api_controll.php:637
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(760): Response->set_urlParam(5, Array)
+#1 {main}
+
+[19-Oct-2022 17:22:39 UTC] PHP Fatal error:  Uncaught TypeError: strcmp(): Argument #2 ($string2) must be of type string, array given in C:\Apache24\htdocs\serverside.com\payment_page\payment.php:53
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\payment_page\payment.php(53): strcmp('d4710a1e1ed6f31...', Array)
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 53
+[19-Oct-2022 17:23:05 UTC] PHP Fatal error:  Uncaught TypeError: strcmp(): Argument #2 ($string2) must be of type string, array given in C:\Apache24\htdocs\serverside.com\payment_page\payment.php:53
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\payment_page\payment.php(53): strcmp('1672e0c85b8c876...', Array)
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 53
+[19-Oct-2022 17:24:03 UTC] PHP Fatal error:  Uncaught TypeError: strcmp(): Argument #2 ($string2) must be of type string, array given in C:\Apache24\htdocs\serverside.com\payment_page\payment.php:53
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\payment_page\payment.php(53): strcmp('1991194b8babe18...', Array)
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 53
+[19-Oct-2022 17:24:41 UTC] PHP Fatal error:  Uncaught TypeError: strcmp(): Argument #2 ($string2) must be of type string, array given in C:\Apache24\htdocs\serverside.com\payment_page\payment.php:54
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\payment_page\payment.php(54): strcmp('7c483f2ad22dbef...', Array)
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 54
+[19-Oct-2022 17:24:55 UTC] PHP Fatal error:  Uncaught TypeError: strcmp(): Argument #2 ($string2) must be of type string, array given in C:\Apache24\htdocs\serverside.com\payment_page\payment.php:54
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\payment_page\payment.php(54): strcmp('e41ddd0b9d8a150...', Array)
+#1 {main}
+  thrown in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 54
+[19-Oct-2022 17:26:18 UTC] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 54
+[19-Oct-2022 17:26:23 UTC] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 54
+[20-Oct-2022 07:54:43 UTC] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 54
+[20-Oct-2022 07:55:40 UTC] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 54
+[20-Oct-2022 16:47:54 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[20-Oct-2022 21:06:00 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[20-Oct-2022 21:07:23 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[20-Oct-2022 21:11:54 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[21-Oct-2022 02:21:03 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[21-Oct-2022 02:21:16 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 57
+[21-Oct-2022 09:06:19 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[21-Oct-2022 09:38:15 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[21-Oct-2022 09:38:24 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 57
+[21-Oct-2022 09:41:48 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[24-Oct-2022 21:23:23 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[24-Oct-2022 21:26:07 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 57
+[29-Oct-2022 11:03:46 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[29-Oct-2022 11:04:00 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 57
+[29-Oct-2022 11:04:39 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[29-Oct-2022 17:00:13 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[05-Nov-2022 15:28:18 Asia/Taipei] PHP Warning:  Undefined array key "paymentstatus" in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[05-Nov-2022 15:28:18 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[05-Nov-2022 15:34:04 Asia/Taipei] PHP Warning:  Undefined array key "paymentstatus" in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[05-Nov-2022 15:34:04 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[05-Nov-2022 15:37:36 Asia/Taipei] PHP Warning:  Undefined array key "paymentstatus" in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[05-Nov-2022 15:37:36 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 81
+[05-Nov-2022 15:39:18 Asia/Taipei] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in C:\Apache24\htdocs\serverside.com\payment_page\payment.php on line 57
+[29-Nov-2022 17:04:18 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 17:04:18+08, null, 127.0.0.1, Create, Error, Parameter [MerchantID] can not be empty., null, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(691): database_event_log(NULL, '127.0.0.1', 'Create', 'Error', 'Parameter [Merc...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+
+[29-Nov-2022 17:05:56 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 17:05:57+08, null, 127.0.0.1, Create, Error, Parameter [MerchantID] can not be empty., null, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(691): database_event_log(NULL, '127.0.0.1', 'Create', 'Error', 'Parameter [Merc...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+
+[29-Nov-2022 22:41:20 Asia/Taipei] Error: Error: Call to a member function get_tradeDesc() on null in C:\Apache24\htdocs\serverside.com\api_controll.php:1053
+Stack trace:
+#0 {main}
+
+[29-Nov-2022 22:52:47 Asia/Taipei] Argument Count Error: ArgumentCountError: Too few arguments to function TransactionData::__construct(), 9 passed in C:\Apache24\htdocs\serverside.com\api_controll.php on line 414 and exactly 11 expected in C:\Apache24\htdocs\serverside.com\api_controll.php:136
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(414): TransactionData->__construct(29, '00001', 'cs00029', '20221129000000', 2900, 'name 29', '20221201000000', 'desc 29', 'no remark')
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(750): DataFactory::InsertData(Array, Array)
+#2 {main}
+
+[29-Nov-2022 22:59:52 Asia/Taipei] Argument Count Error: ArgumentCountError: Too few arguments to function TransactionData::__construct(), 9 passed in C:\Apache24\htdocs\serverside.com\api_controll.php on line 414 and exactly 11 expected in C:\Apache24\htdocs\serverside.com\api_controll.php:136
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(414): TransactionData->__construct(30, '00001', 'cs00030', '20221130000000', 3000, 'name 30', '20221201000000', 'desc 30', 'no remark')
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(750): DataFactory::InsertData(Array, Array)
+#2 {main}
+
+[29-Nov-2022 23:00:28 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:00:28+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:00:38 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:00:39+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:02:01 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:02:02+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:03:48 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:03:48+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:04:05 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:04:06+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:04:07 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:04:08+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:04:09 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:04:09+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:04:09 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:04:10+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:04:10 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:04:11+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:04:10 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:04:11+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:05:02 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:05:03+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:05:23 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:05:24+08, null, 127.0.0.1, Search, Error, Data not exist., 0, null, null, null, null, null, null, null, null, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(311): database_event_log(NULL, '127.0.0.1', 'Search', 'Error', 'Data not exist.', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\Apache24\htdocs\serverside.com\api_controll.php(797): DataFactory::SearchData(Array, Array)
+#3 {main}
+
+[29-Nov-2022 23:09:18 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:09:18+08, null, 127.0.0.1, Search, Info, Data searched successfully., 30, 00001, cs00030, 20221130000000, 3000, name 30, desc 30, no remark, 20221201000000, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(824): database_event_log(NULL, '127.0.0.1', 'Search', 'Info', 'Data searched s...', 30, '00001', 'cs00030', '20221130000000', 3000, 'name 30', 'desc 30', 'no remark', '20221201000000', NULL)
+#2 {main}
+
+[29-Nov-2022 23:09:19 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:09:20+08, null, 127.0.0.1, Search, Info, Data searched successfully., 30, 00001, cs00030, 20221130000000, 3000, name 30, desc 30, no remark, 20221201000000, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(824): database_event_log(NULL, '127.0.0.1', 'Search', 'Info', 'Data searched s...', 30, '00001', 'cs00030', '20221130000000', 3000, 'name 30', 'desc 30', 'no remark', '20221201000000', NULL)
+#2 {main}
+
+[29-Nov-2022 23:09:20 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:09:20+08, null, 127.0.0.1, Search, Info, Data searched successfully., 30, 00001, cs00030, 20221130000000, 3000, name 30, desc 30, no remark, 20221201000000, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(824): database_event_log(NULL, '127.0.0.1', 'Search', 'Info', 'Data searched s...', 30, '00001', 'cs00030', '20221130000000', 3000, 'name 30', 'desc 30', 'no remark', '20221201000000', NULL)
+#2 {main}
+
+[29-Nov-2022 23:09:20 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:09:21+08, null, 127.0.0.1, Search, Info, Data searched successfully., 30, 00001, cs00030, 20221130000000, 3000, name 30, desc 30, no remark, 20221201000000, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(824): database_event_log(NULL, '127.0.0.1', 'Search', 'Info', 'Data searched s...', 30, '00001', 'cs00030', '20221130000000', 3000, 'name 30', 'desc 30', 'no remark', '20221201000000', NULL)
+#2 {main}
+
+[29-Nov-2022 23:09:21 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:09:21+08, null, 127.0.0.1, Search, Info, Data searched successfully., 30, 00001, cs00030, 20221130000000, 3000, name 30, desc 30, no remark, 20221201000000, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(824): database_event_log(NULL, '127.0.0.1', 'Search', 'Info', 'Data searched s...', 30, '00001', 'cs00030', '20221130000000', 3000, 'name 30', 'desc 30', 'no remark', '20221201000000', NULL)
+#2 {main}
+
+[29-Nov-2022 23:09:23 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:09:23+08, null, 127.0.0.1, Search, Info, Data searched successfully., 30, 00001, cs00030, 20221130000000, 3000, name 30, desc 30, no remark, 20221201000000, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(824): database_event_log(NULL, '127.0.0.1', 'Search', 'Info', 'Data searched s...', 30, '00001', 'cs00030', '20221130000000', 3000, 'name 30', 'desc 30', 'no remark', '20221201000000', NULL)
+#2 {main}
+
+[29-Nov-2022 23:09:24 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:09:24+08, null, 127.0.0.1, Search, Info, Data searched successfully., 30, 00001, cs00030, 20221130000000, 3000, name 30, desc 30, no remark, 20221201000000, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(824): database_event_log(NULL, '127.0.0.1', 'Search', 'Info', 'Data searched s...', 30, '00001', 'cs00030', '20221130000000', 3000, 'name 30', 'desc 30', 'no remark', '20221201000000', NULL)
+#2 {main}
+
+[29-Nov-2022 23:10:36 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:10:37+08, null, 127.0.0.1, Search, Info, Data searched successfully., 22, 00001, cs00022, 20220511201028, 2200, cost number 22, description 22, remark 22, 20221201000000, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(824): database_event_log(NULL, '127.0.0.1', 'Search', 'Info', 'Data searched s...', 22, '00001', 'cs00022', '20220511201028', 2200, 'cost number 22', 'description 22', 'remark 22', '20221201000000', NULL)
+#2 {main}
+
+[29-Nov-2022 23:11:59 Asia/Taipei] Argument Count Error: ArgumentCountError: Too few arguments to function TransactionData::__construct(), 9 passed in C:\Apache24\htdocs\serverside.com\api_controll.php on line 414 and exactly 11 expected in C:\Apache24\htdocs\serverside.com\api_controll.php:136
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(414): TransactionData->__construct(31, '00001', 'cs00031', '20221131000000', 3100, 'name 31', '20221201000000', 'desc 31', 'no remark')
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(750): DataFactory::InsertData(Array, Array)
+#2 {main}
+
+[29-Nov-2022 23:12:28 Asia/Taipei] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "account" of relation "api_event_log" violates not-null constraint
+DETAIL:  Failing row contains (2022-11-29 23:12:28+08, null, 127.0.0.1, Search, Info, Data searched successfully., 31, 00001, cs00031, 20221131000000, 3100, name 31, desc 31, no remark, 20221201000000, null). in C:\Apache24\htdocs\serverside.com\api_controll.php:92
+Stack trace:
+#0 C:\Apache24\htdocs\serverside.com\api_controll.php(92): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\serverside.com\api_controll.php(824): database_event_log(NULL, '127.0.0.1', 'Search', 'Info', 'Data searched s...', 31, '00001', 'cs00031', '20221131000000', 3100, 'name 31', 'desc 31', 'no remark', '20221201000000', NULL)
+#2 {main}
+
